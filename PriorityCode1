@@ -1,0 +1,10 @@
+typedef struct pq* PQ;
+typedef struct PQnode*PQLink;
+PQ PQinit();
+int PQempty(PQ);
+PQLink PQinsert(PQ,Item);
+Item PQdelmax(PQ);
+void PQchange9PQ,PQlink,Item);
+void PQdelete(PQ,PQLink,Item);
+void PQdelete(PQ,PQ Link);
+void PQjoin(PQ,PQ);
